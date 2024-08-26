@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>大磊的猫窝</title>
   
-  <subtitle>ZHYxulei的猫窝</subtitle>
+  
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
@@ -43,15 +43,14 @@
     <published>2021-06-10T08:35:20.000Z</published>
     <updated>2024-08-25T15:16:07.127Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="/test.png" alt="图片引用方法二"></p><p><img src="/images/test.png" alt="图片引用方法三"></p>]]></content>
+    <content type="html"><![CDATA[<p>这是一篇测试文章</p><p><img src="test.png" alt="图片引用方法二"></p><p><img src="/images/test.png" alt="图片引用方法三"></p>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;这是一篇测试文章&lt;/p&gt;
 
-
-&lt;p&gt;&lt;img src=&quot;/test.png&quot; alt=&quot;图片引用方法二&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;test.png&quot; alt=&quot;图片引用方法二&quot;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/images/test.png&quot; alt=&quot;图片引用方法三&quot;&gt;&lt;/p&gt;
 </summary>
       
